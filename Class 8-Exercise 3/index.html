@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+
+    <link href="./global.css" rel="stylesheet" />
+
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <button class="btn" data-color="blue">Change Background to Blue</button>
+        <button class="btn" data-color="red">Change Background to Red</button>
+        <button class="btn" data-color="green">Change Background to Green</button>
+    </main>
+    <script>
+function changeBGColor(e) {
+   const color = e.target.getAttribute('data-color')
+    document.body.style.backgroundColor = color;
+}
+    </script>
+ 
+</body>
+</html>
