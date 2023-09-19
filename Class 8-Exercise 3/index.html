@@ -11,11 +11,12 @@
 </head>
 <body>
     <main class="container">
-        <button class="btn" data-color="blue">Change Background to Blue</button>
-        <button class="btn" data-color="red">Change Background to Red</button>
-        <button class="btn" data-color="green">Change Background to Green</button>
+        <button class="btn" data-color="blue">Change Button 1</button>
+        <button class="btn" data-color="red">Change Button 2</button>
+        <button class="btn" data-color="green">Button 3</button>
     </main>
     <script>
+        
 function changeBGColor(e) {
    const color = e.target.getAttribute('data-color')
     document.body.style.backgroundColor = color;

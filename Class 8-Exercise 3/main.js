@@ -7,7 +7,7 @@
 // For an added challenge, assign a different color to each button so that when clicked, they change the background color to a unique hue.
 // Test your code by opening multiple_but
 
-const btns = document.querySelectorAll('.btn');
+const btns = document.querySelectorAll('.btn-onclick');
 
 btns.forEach((button) => button.addEventListener('click', changeBGColor));
 
