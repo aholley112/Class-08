@@ -12,5 +12,8 @@ paragraphs.forEach(paragraph => {
     console.log(paragraph.innerText);
 });
 
+
+
+
   
 
