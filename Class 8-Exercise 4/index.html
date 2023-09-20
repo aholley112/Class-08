@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1</title>
+    <title>Exercise 4</title>
 
     <script src="./main.js" defer></script>
 </head>
 <body>
     <script>
+        let button = document.createElement("button");
+        button.textContent = "Click Me";
 
+        document.body.appendChild(button);
 
+        button.addEventListener("click", function () {
+            alert("Button was clicked!");
+        });
     </script>
     
 </body>
